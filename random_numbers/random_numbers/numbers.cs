@@ -9,19 +9,18 @@ namespace Random_numbers
 {
     internal class Numbers
     {
+        public int ID { get; set; }
         public string text { get; set; }
         public int number { get; set; }
         public bool found { get; set; }
         public string? type { get; set; }
-
-        public int NumberID { get; set; }
 
         public string? date { get; set; }
         public string? year { get; set; }
 
         public override string ToString()
         {
-            return $"{this.NumberID} Twoja liczba to: {this.number}: {this.text}";
+            return $"Twoja liczba to: {this.number}: {this.text}";
         }
 
         //public Numbers(string? text, int number, bool found, string? type, string? date, string? year)
