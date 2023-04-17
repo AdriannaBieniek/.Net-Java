@@ -45,12 +45,11 @@ namespace Random_numbers
         {
             Random_mine random = new Random_mine();
             var context = new classBoss();
-            Console.WriteLine("Nasza baza to: \n");
-            context.numbers_table.Select(elem=>new { elem.number, elem.text }).ToList().ForEach(elem => Console.WriteLine(elem + ","));
+  
             while (true)
             {
                 
-                Console.WriteLine("Menu:\n 1.Losowy rok\n 2.Wybrany rok\n 3.Losowa liczba\n 4.Wybrana liczba\n 5.Koniec programu\n");
+                Console.WriteLine("Menu:\n 1.Losowy rok\n 2.Wybrany rok\n 3.Losowa liczba\n 4.Wybrana liczba\n 5.Wyswietl baze\n 6.Koniec programu\n");
                 int a = Convert.ToInt32(Console.ReadLine());
 
                 switch (a)
@@ -126,6 +125,11 @@ namespace Random_numbers
                         break;
 
                     case 5:
+                        Console.WriteLine("Nasza baza to: \n");
+                        context.numbers_table.Select(elem => new {elem.ID, elem.number, elem.text }).ToList().ForEach(elem => Console.WriteLine(elem + ","));
+                        break;
+
+                    case 6:
                         Console.WriteLine("Koncze dzialanie programu");
                         return;
                     default:

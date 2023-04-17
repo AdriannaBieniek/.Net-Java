@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{2C84EC65-4F94-4730-ADC0-9BCC05936BC1}|Default">
+  <MonoDevelop.Ide.ItemProperties.random__numbers PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="random_numbers/Program.cs">
+    <Files>
+      <File FileName="random_numbers/classBoss.cs" Line="1" Column="1" />
+      <File FileName="random_numbers/numbers.cs" Line="1" Column="1" />
+      <File FileName="random_numbers/Program.cs" Line="129" Column="75" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="random_numbers" expanded="True">
+            <Node name="random_numbers" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
