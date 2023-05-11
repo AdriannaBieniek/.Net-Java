@@ -1,0 +1,83 @@
+﻿@page
+@model Games.Pages.Games_pages.IndexModel
+
+@{
+    //ViewData["Title"] = "Index";
+    ViewData["Title"] = "Games";
+}
+
+
+<h1>Game</h1>
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form asp-page="./Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by name:
+            <input type="text" name="SearchString" value="@Model.CurrentFilter" />
+            <input type="submit" value="Search the game" class="btn btn-primary" /> |
+            <a asp-page="./Index">Back to full List</a>
+        </p>
+    </div>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.NameSort">
+                    @Html.DisplayNameFor(model => model.Game[0].Title)
+                </a>
+                
+            </th>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.DateSort">
+                    @Html.DisplayNameFor(model => model.Game[0].RelaseDate)
+                </a>
+                
+            </th>
+           @* <th>
+                @Html.DisplayNameFor(model => model.Game[0].Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].Platforms)
+            </th>*@
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.PriceSort">
+                    @Html.DisplayNameFor(model => model.Game[0].Price)
+                </a>
+                
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Game) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RelaseDate)
+            </td>
+           @* <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Platforms)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
