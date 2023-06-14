@@ -1,0 +1,15 @@
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/bin/Debug/net6.0/Threads_Matrix
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/bin/Debug/net6.0/Threads_Matrix.deps.json
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/bin/Debug/net6.0/Threads_Matrix.runtimeconfig.json
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/bin/Debug/net6.0/Threads_Matrix.dll
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/bin/Debug/net6.0/Threads_Matrix.pdb
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/obj/Debug/net6.0/Threads_Matrix.csproj.AssemblyReference.cache
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/obj/Debug/net6.0/Threads_Matrix.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/obj/Debug/net6.0/Threads_Matrix.AssemblyInfoInputs.cache
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/obj/Debug/net6.0/Threads_Matrix.AssemblyInfo.cs
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/obj/Debug/net6.0/Threads_Matrix.csproj.CoreCompileInputs.cache
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/obj/Debug/net6.0/Threads_Matrix.dll
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/obj/Debug/net6.0/refint/Threads_Matrix.dll
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/obj/Debug/net6.0/Threads_Matrix.pdb
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/obj/Debug/net6.0/Threads_Matrix.genruntimeconfig.cache
+/Users/adriannabieniek/Documents/Uczelnia/Sem6/DOTNET/Threads_Matrix/Threads_Matrix/obj/Debug/net6.0/ref/Threads_Matrix.dll
